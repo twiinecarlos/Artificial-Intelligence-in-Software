@@ -1,18 +1,21 @@
 # Artificial Intelligence in Software Engineering
 
 ## Overview
-This repository showcases my journey using Artificial Intelligence tools like ChatGPT to improve my software engineering workflow. Each task demonstrates how AI was used as a collaborator to analyze, debug, and improve C programs.
+This repository documents my work using Artificial Intelligence tools to support software engineering tasks in C programming. Each folder contains a specific assignment, the prompts used, the before-and-after code or documentation, screenshots of AI interactions, and a task README explaining the workflow.
 
 ## Completed Tasks
+- [AI Mastering Concepts](./AI%20Mastering%20Concepts/)
+- [AI Conceptual Mastery](./AI%20Conceptual%20Mastery/)
+- [AI C Preprocessor Co-Pilot](./AI%20C%20Preprocessor%20Co-Pilot/)
 
-- [AI: Mastering Concepts](./AI%20Mastering%20Concepts/)
-- [AI: Conceptual Mastery](./AI%20Conceptual%20Mastery/)
-- [AI: C Preprocessor Co-Pilot](./AI%20C%20Preprocessor%20Co-Pilot/)
+## Repository Purpose
+The purpose of this repository is to show a professional, transparent record of AI-assisted software engineering work. It highlights how AI was used as a tutor, reviewer, safety inspector, and documentation assistant rather than as a shortcut to final answers.
 
-## Tools Used
+## AI Tools Used
 - ChatGPT
-- C Programming
-- GitHub
 
-## Purpose
-To demonstrate professional AI-assisted development, including debugging, optimization, and safe coding practices.
+## Skills Demonstrated
+- Prompt engineering for conceptual learning
+- Complexity analysis and trade-off reasoning
+- C preprocessor safety analysis
+- Technical documentation and portfolio organization
