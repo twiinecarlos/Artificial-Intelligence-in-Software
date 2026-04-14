@@ -1,21 +1,24 @@
-# Artificial Intelligence in Software Engineering
+# AI C Preprocessor Co-Pilot
 
-## Overview
-This repository documents my work using Artificial Intelligence tools to support software engineering tasks in C programming. Each folder contains a specific assignment, the prompts used, the before-and-after code or documentation, screenshots of AI interactions, and a task README explaining the workflow.
+## Task Summary
+This task demonstrates the use of AI as a Macro Safety Inspector and Conditional Code Generator for C preprocessor code.
 
-## Completed Tasks
-- [AI Mastering Concepts](./AI%20Mastering%20Concepts/)
-- [AI Conceptual Mastery](./AI%20Conceptual%20Mastery/)
-- [AI C Preprocessor Co-Pilot](./AI%20C%20Preprocessor%20Co-Pilot/)
+## Scenario Choice
+Scenario A: Simple arithmetic macro.
 
-## Repository Purpose
-The purpose of this repository is to show a professional, transparent record of AI-assisted software engineering work. It highlights how AI was used as a tutor, reviewer, safety inspector, and documentation assistant rather than as a shortcut to final answers.
+## Files
+- `flawed_macro.c` — contains the intentionally unsafe macro:
+  `#define MULTIPLY(a, b) a * b`
+- `refactored_macro.h` — contains the safer macro version and conditional debug scaffolding
+- `README.md` — task documentation
 
-## AI Tools Used
-- ChatGPT
+## Macro Safety Issue
+The flawed macro suffers from operator precedence problems because its parameters and full expression are not wrapped in parentheses.
 
-## Skills Demonstrated
-- Prompt engineering for conceptual learning
-- Complexity analysis and trade-off reasoning
-- C preprocessor safety analysis
-- Technical documentation and portfolio organization
+## AI Tool Used
+ChatGPT
+
+## What AI Helped With
+- Identifying the precedence bug in the macro
+- Explaining macro expansion behavior
+- Generating robust conditional compilation scaffolding with include guards, debug macros, `__FILE__`, `__LINE__`, and `do { } while (0)`
