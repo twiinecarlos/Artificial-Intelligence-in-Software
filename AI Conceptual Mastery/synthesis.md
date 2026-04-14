@@ -1,1 +1,1 @@
-
+Arrays are superior when fast random access is required because they provide O(1) access time through contiguous memory indexing. Linked lists are better when frequent insertions and deletions are needed, since they can perform these operations in O(1) time when the position is already known, while arrays usually require O(n) shifting. This means arrays are best for read-heavy use cases, while linked lists are better for dynamic structures that change often.
