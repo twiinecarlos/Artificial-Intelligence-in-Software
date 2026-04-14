@@ -14,3 +14,31 @@ Each task focuses on a specific concept and shows how AI can improve understandi
 ---
 
 ## Repository Structure
+
+---
+
+## Tasks Included
+
+### 1. AI C Preprocessor Co-Pilot
+- Demonstrates macro safety inspection using AI
+- Identifies common macro bugs (operator precedence)
+- Uses AI to generate safe conditional compilation scaffolding
+
+---
+
+## Tools Used
+- ChatGPT (AI analysis and code generation)
+- C Programming Language
+
+---
+
+## Key Learning Outcomes
+- Understanding C preprocessor risks
+- Writing safer macros
+- Using AI for debugging before compilation
+- Applying conditional compilation professionally
+
+---
+
+## Author
+Twiine Mugisha Carlos
