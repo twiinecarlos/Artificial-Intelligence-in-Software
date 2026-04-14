@@ -1,24 +1,16 @@
-# AI C Preprocessor Co-Pilot
+# Artificial Intelligence in Software Engineering
 
-## Task Summary
-This task demonstrates the use of AI as a Macro Safety Inspector and Conditional Code Generator for C preprocessor code.
+## Overview
+This repository contains tasks demonstrating the use of Artificial Intelligence (AI) tools (such as ChatGPT) in software engineering workflows.
 
-## Scenario Choice
-Scenario A: Simple arithmetic macro.
+The goal is to use AI not just for generating code, but as:
+- A conceptual tutor
+- A debugging assistant
+- A security auditor
+- A code generation co-pilot
 
-## Files
-- `flawed_macro.c` — contains the intentionally unsafe macro:
-  `#define MULTIPLY(a, b) a * b`
-- `refactored_macro.h` — contains the safer macro version and conditional debug scaffolding
-- `README.md` — task documentation
+Each task focuses on a specific concept and shows how AI can improve understanding, safety, and development efficiency.
 
-## Macro Safety Issue
-The flawed macro suffers from operator precedence problems because its parameters and full expression are not wrapped in parentheses.
+---
 
-## AI Tool Used
-ChatGPT
-
-## What AI Helped With
-- Identifying the precedence bug in the macro
-- Explaining macro expansion behavior
-- Generating robust conditional compilation scaffolding with include guards, debug macros, `__FILE__`, `__LINE__`, and `do { } while (0)`
+## Repository Structure
