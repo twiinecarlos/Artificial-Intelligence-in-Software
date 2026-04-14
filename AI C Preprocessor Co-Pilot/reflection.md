@@ -1,1 +1,1 @@
-
+AI is especially useful for checking C preprocessor macros because macro bugs happen before normal program logic is even visible and can be difficult to spot by eye. In this task, the AI helped identify an operator precedence flaw before compilation and also helped generate safer conditional scaffolding that follows professional macro patterns. This makes AI valuable as a preprocessor safety check because it reduces silent logic bugs and improves code reliability early in development.
