@@ -1,1 +1,1 @@
-
+This step-by-step prompting style helped me understand pointers as a memory concept, not just as syntax to memorize. By separating the concept, the swap logic, the security risk, and the edge case, I learned how pointer-based functions work and why they can be dangerous when NULL or invalid addresses are involved. This was more effective than asking for the final code because it built my reasoning first and showed me how to think like both a programmer and a security reviewer.
