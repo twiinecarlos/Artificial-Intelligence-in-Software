@@ -1,24 +1,22 @@
 # AI C Preprocessor Co-Pilot
 
-## Task Summary
-This task demonstrates the use of AI as a Macro Safety Inspector and Conditional Code Generator for C preprocessor code.
+## Task Description
+This task demonstrates how Artificial Intelligence can be used as:
+- A Macro Safety Inspector
+- A Conditional Code Generator
+
+The focus is on identifying and fixing common C preprocessor macro issues, and generating robust conditional compilation scaffolding.
+
+---
 
 ## Scenario Choice
-Scenario A: Simple arithmetic macro.
+**Scenario A: Arithmetic Macro**
 
-## Files
-- `flawed_macro.c` — contains the intentionally unsafe macro:
-  `#define MULTIPLY(a, b) a * b`
-- `refactored_macro.h` — contains the safer macro version and conditional debug scaffolding
-- `README.md` — task documentation
+A simple arithmetic macro was selected to demonstrate common pitfalls such as operator precedence bugs.
 
-## Macro Safety Issue
-The flawed macro suffers from operator precedence problems because its parameters and full expression are not wrapped in parentheses.
+---
 
-## AI Tool Used
-ChatGPT
+## Flawed Macro
 
-## What AI Helped With
-- Identifying the precedence bug in the macro
-- Explaining macro expansion behavior
-- Generating robust conditional compilation scaffolding with include guards, debug macros, `__FILE__`, `__LINE__`, and `do { } while (0)`
+```c
+#define MULTIPLY(a, b) a * b
